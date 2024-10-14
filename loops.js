@@ -11,8 +11,13 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
+const teken = '*';
 
-
+console.log(teken);
+console.log(`*${teken.repeat(1)}`);
+console.log(`*${teken.repeat(2)}`);
+console.log(`*${teken.repeat(3)}`);
+console.log(`*${teken.repeat(4)}`);
 
 
 // ==========================================
