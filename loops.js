@@ -11,8 +11,13 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
+const teken = '*';
 
-
+console.log(teken);
+console.log(`*${teken.repeat(1)}`);
+console.log(`*${teken.repeat(2)}`);
+console.log(`*${teken.repeat(3)}`);
+console.log(`*${teken.repeat(4)}`);
 
 
 // ==========================================
@@ -24,9 +29,11 @@
 // loop...
 // klaar!
 // ==========================================
+const woorden = ["loop...", "loop...", "loop...", "loop...", "klaar!"];
 
-
-
+for (let i = 0; i < woorden.length; i++) {
+    console.log(woorden[i]);
+}
 
 
 // ==========================================
@@ -45,9 +52,19 @@
 // >> 9
 // ==========================================
 
+for(i=1; i<=9; i=i+1) {
 
+    if (i > 2 && i < 6) {
+        console.log(">" + [i]);
+    } else {
+    }
 
+    if (i > 5) {
+        console.log(">>" + [i]);
+    }
 
+    console.log(i);
+}
 
 // ==========================================
 // Opdracht 4 (BONUS): schrijf een for-loop die van 0 tot 100 loopt en de getallen print.
@@ -87,5 +104,6 @@
 // etc.
 // ==========================================
 
-
-
+for(i=1; i<=100; i=i+1) {
+    console.log(i);
+}
