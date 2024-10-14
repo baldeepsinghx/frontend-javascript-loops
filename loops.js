@@ -29,9 +29,11 @@ console.log(`*${teken.repeat(4)}`);
 // loop...
 // klaar!
 // ==========================================
+const woorden = ["loop...", "loop...", "loop...", "loop...", "klaar!"];
 
-
-
+for (let i = 0; i < woorden.length; i++) {
+    console.log(woorden[i]);
+}
 
 
 // ==========================================
@@ -50,7 +52,9 @@ console.log(`*${teken.repeat(4)}`);
 // >> 9
 // ==========================================
 
-
+for (let i = 0; i < ; i++) {
+    
+}
 
 
 
