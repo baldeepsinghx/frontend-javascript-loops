@@ -52,9 +52,19 @@ for (let i = 0; i < woorden.length; i++) {
 // >> 9
 // ==========================================
 
+for(i=1; i<=9; i=i+1) {
 
+    if (i > 2 && i < 6) {
+        console.log(">" + [i]);
+    } else {
+    }
 
+    if (i > 5) {
+        console.log(">>" + [i]);
+    }
 
+    console.log(i);
+}
 
 // ==========================================
 // Opdracht 4 (BONUS): schrijf een for-loop die van 0 tot 100 loopt en de getallen print.
@@ -94,3 +104,6 @@ for (let i = 0; i < woorden.length; i++) {
 // etc.
 // ==========================================
 
+for(i=1; i<=100; i=i+1) {
+    console.log(i);
+}
